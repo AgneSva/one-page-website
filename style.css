@@ -1,0 +1,162 @@
+* ::after, ::before {
+    box-sizing: border-box;
+}
+body{
+   /* background-color: red; */
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #283d50;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+nav{
+    background-color:white;
+  max-width: 100%;
+
+  padding:10px;
+
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    color: #004289;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+    display: block;
+    position: relative;
+    text-align: left;
+    list-style: none;
+    padding-right: 2em;
+ 
+    
+ 
+
+}
+nav li{
+    display: inline;
+    line-height:24px;
+    padding: 10px 15px;
+    
+} 
+nav a:hover{
+    color:   #007bff;;
+}
+header img{
+    transform: scale(0.8);
+}
+
+/* FIRST SECTION */
+.section-one img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    margin-top: -40px;
+}
+  
+.section-one p{
+    position: absolute;
+    top:20%;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Open Sans", sans-serif;
+    left:10%;
+
+}
+.section-one p button{
+   
+    background: #007bff;
+
+    color: #fff;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: solid transparent;
+}
+
+.section-one p button:hover{
+    background: transparent;
+    border: solid white;
+}
+
+.section-one > p > img{
+transform: scale(0.6);
+    display: inline;
+    left:20%;
+    top:-400px;
+
+}
+  
+/* ABOUT US SECTION */
+#about{
+    background-color: white;
+    padding: 60px 0;
+    width: 100%;
+    margin-right: auto;
+    font-weight: 200;
+    margin-left: auto;
+  
+}
+
+.section-header h3 {
+    font-size: 36px;
+   
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.section-header p{
+    font-size: 15px;
+   
+    text-align: center;
+    font-weight: 200;
+    position: relative;
+
+
+
+}
+
+.one{
+    display:inline-block;
+    padding: 60px;
+
+    
+}
+.one img{
+    float:right;
+  
+
+}
+
+.one p{
+    line-height: 39px;
+    padding: 20px;
+}
