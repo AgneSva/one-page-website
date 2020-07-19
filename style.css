@@ -14,6 +14,7 @@ html{
 
 /* HEADER */
 nav{
+ 
     background-color:white;
   max-width: 100%;
 
@@ -135,7 +136,6 @@ transform: scale(0.6);
 
 .section-header p{
     font-size: 15px;
-   
     text-align: center;
     font-weight: 200;
     position: relative;
@@ -145,18 +145,224 @@ transform: scale(0.6);
 }
 
 .one{
-    display:inline-block;
+    display:block;
     padding: 60px;
+text-align: justify;
+position: relative;
+
+
 
     
 }
 .one img{
     float:right;
-  
+    margin: 20px;
+    
 
 }
 
 .one p{
     line-height: 39px;
     padding: 20px;
+    
+   
+}
+
+.one:after{ 
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+.two{
+       
+   
+    display:block;
+    padding: 60px;
+    text-align: justify;
+   
+    
+
+    
+}
+.two img{
+    float:left;
+    margin: 20px;
+  
+
+}
+
+.two p{
+    line-height: 39px;
+    padding: 20px;
+}
+.two h2{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+.three{
+       
+   
+    display:block;
+    padding: 60px;
+    text-align: justify;
+   
+    
+
+    
+}
+.three img{
+    float:right;
+    margin: 20px;
+  
+
+}
+
+.three p{
+    line-height: 39px;
+    padding: 20px;
+}
+.three h2{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* SERVICES section */
+
+#services{
+    padding: 60px 0 40px 0;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    background: #ecf5ff;
+}
+
+.box-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 60px;
+   
+ 
+    
+}
+
+
+
+.box {
+    flex:1 1 30%;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0px 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.03);
+}
+
+/* WHY US SECTION */
+#why-us {
+    padding: 60px 0;
+    background: #004a99;
+    color: white;
+}
+
+.reasons{
+    display: flex;
+    flex-flow: row wrap;
+  
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.reason-box{
+    flex:1 1 30%;
+    padding: 15px 0;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 15px;
+    background: #00458f;
+    text-align: center;
+  
+
+}
+
+.reason-box:hover{
+    background:rgb(0, 32, 114);
+
+}
+
+#why-us h5{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+#why-us p {
+    font-size: 15px;
+    color: #d8eafe;
+    margin: 20px;
+}
+
+#why-us .readmore{
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    margin: 10px;
+   
+    
+}
+
+#why-us .readmore:hover{
+     color: #00458f;
+}
+
+.number-container{
+    display: flex;
+    flex-flow: row wrap;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.number-box{
+    flex:1 1 20%;
+    padding: 15px 0;
+    height: 100%;
+    margin: 0 15px;
+    
+    text-align: center;
+
+}
+
+.number-box > h1{
+    font-size: 55px;
+  
 }
