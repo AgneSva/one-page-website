@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "one-page-website",
+			"path": "."
+		},
+		{
+			"path": "../NewBiz/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "one page"
+	}
+}
